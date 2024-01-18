@@ -1,0 +1,318 @@
+body {
+    font-family: 'Great Vibes', ;
+    margin: 0;
+    padding: 0;
+    background-color: #F9D8A2;
+    color: #004632;
+}
+#logo {
+    width: 10%;
+    height: 10%;
+    display: block;
+    margin: 20px auto;
+    align-self: center;
+}
+
+a {
+    color: #004632;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E9C792;
+}
+
+header {
+    background-color: #004632;
+    padding: 0px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin: 10px; 
+}
+
+nav a img {
+    width: 80px; 
+    height: auto; 
+}
+
+nav a {
+    color: #E9C792;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px; 
+}
+.button.dropbtn {
+    background-color: #E9C792;
+}
+
+.dropbtn {
+    background-color: #004632;
+    color: #E9C792;
+    padding: 5px;
+    border: 5px;
+    cursor: pointer;
+    font-family: times;
+    font-size: 18px;
+    font-weight: bold;
+}
+  
+.dropbtn:hover {
+    background-color: #E9C792;
+    color: #004632;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E9C792;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: #004632;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #004632;
+    color: #E9C792;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#block:hover {
+    background-color: #E9C792;
+    color: #004632;
+    border-radius: 5px;
+}
+
+.shared-class a:hover {
+    background-color: #E9C792;
+    color: #004632;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: linear-gradient(to bottom, #F9D8A2, #E9C792); /* Updated background gradient */
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0.3, 0.2, 0.2, 0.2);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #004632;
+}
+
+form {
+    display: grid;
+    grid-gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #004632;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #004632;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #004632;
+    background-color: #FFF; /* White background for input fields */
+}
+
+
+button:hover {
+    background-color: #003520;
+}
+section {
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    background-color: #E9C792;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.social-icons {
+    display: flex;
+    margin-top: 10px;
+}
+
+.icon {
+    width: 60px; /* Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    margin-right: 10px; /* Add some spacing between icons */
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004632;
+    color: #004632;
+}
+#contact {
+    flex-direction: column; /* Updated to vertical layout on smaller screens */
+    align-items: center;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    margin-top: 10px;
+}
+
+.icon {
+    width: 40px; /* Adjust the width as needed for smaller screens */
+    height: 40px; /* Adjust the height as needed for smaller screens */
+    margin-right: 10px;
+}
+#hours {
+    background-color: #F2CC91;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+#hours h2 {
+    color: #004632;
+}
+
+#hours p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #004632;
+}
+#contact {
+    background-color: #F2CC91;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #004632;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #004632;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+footer {
+    background-color: #004632;
+    color: #F2CC91;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #F2CC91;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #004632;
+}
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column; /* Switch to a vertical layout on smaller screens */
+        text-align: center; /* Center-align items in the column */
+    }
+
+    nav ul {
+        flex-direction: column; /* Switch to a vertical layout on smaller screens */
+        text-align: center; /* Center-align items in the column */
+    }
+
+    nav li {
+        margin: 10px 0; /* Adjust margin for better spacing on smaller screens */
+    }
+
+    nav a {
+        font-size: 16px; /* Adjust font size for larger screens */
+    }
+
+    nav a img {
+        width: 60px; /* Adjust the logo size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav a {
+        font-size: 14px; /* Further reduce font size for screens smaller than 480px */
+    }
+
+    nav a img {
+        width: 50px; /* Further reduce the logo size for screens smaller than 480px */
+    }
+
+}
