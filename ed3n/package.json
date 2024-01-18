@@ -4,7 +4,7 @@
   "description": "Website for cafe",
   "main": "index.js",
   "scripts": {
-  "start": "node your-app-file.js"
+  "start": "node index.js"
 },
   "keywords": [
     "cafe"
